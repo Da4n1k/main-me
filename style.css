@@ -1011,6 +1011,7 @@ footer .prime h3 {
         height: 200px;
         margin-bottom: 50px;
         border-radius: 30px;
+        background-position: center;
     }
 
     .content-me .text-boxme .ul-time {
@@ -1475,6 +1476,7 @@ footer .prime h3 {
         height: 200px;
         margin-bottom: 50px;
         border-radius: 30px;
+        background-position: center;
     }
 
     .content-me .text-boxme .ul-time {
