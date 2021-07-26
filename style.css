@@ -329,7 +329,7 @@ body {
     width: 800px;
     height: 400px;
     border-radius: 30px;
-    background-image: url(/image/lite-photo-boxme.jpg);
+    background-image: url(image/lite-photo-boxme.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -627,7 +627,7 @@ body {
     height: 250px;
     position: relative;
     margin: 5px;
-    background-image: url(/image/box-img.jpg);
+    background-image: url(image/box-img.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1011,10 +1011,6 @@ footer .prime h3 {
         height: 200px;
         margin-bottom: 50px;
         border-radius: 30px;
-        background-image: url(/image/lite-photo-boxme.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
     }
 
     .content-me .text-boxme .ul-time {
@@ -1479,10 +1475,6 @@ footer .prime h3 {
         height: 200px;
         margin-bottom: 50px;
         border-radius: 30px;
-        background-image: url(/image/lite-photo-boxme.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
     }
 
     .content-me .text-boxme .ul-time {
