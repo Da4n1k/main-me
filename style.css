@@ -1915,6 +1915,7 @@ footer .prime h3 {
     .about-me-box {
         display: flex;
         min-height: 100vh;
+        margin-top: 80px;
     }
 
     .about-me-box h1 {
