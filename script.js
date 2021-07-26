@@ -36,6 +36,25 @@ controlpanel.forEach(function(el) {
     el.addEventListener('click', toggleSkill);
 })
 
+const sections = document.querySelectorAll('section[id]');
+
+function scrollActive() {
+    const scrollY = window.pageYOffset;
+
+    sections.forEach(current => {
+        const sectionHeight = current.offsetHeight;
+        const sectionTop = current.offsetTop - 90,
+            sectionId = current.getAttribute('id');
+
+        if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
+            document.querySelector('.nav-menu a[href*=' + sectionId + ']').classList.add('active');
+        } else {
+            document.querySelector('.nav-menu a[href*=' + sectionId + ']').classList.remove('active');
+        }
+    })
+}
+window.addEventListener('scroll', scrollActive);
+
 const sr = ScrollReveal({
     origin: 'top',
     distance: '80px',

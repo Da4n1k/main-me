@@ -84,11 +84,11 @@ body {
     width: 100%;
     position: relative;
     list-style: none;
-    border-top-left-radius: 25px;
-    border-bottom-left-radius: 25px;
 }
 
-.navigation ul li.active {
+.navigation ul a.active {
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
     background-color: var(--nav-bgline);
 }
 
@@ -101,7 +101,7 @@ body {
     color: var(--nav-color);
 }
 
-.navigation ul li.active a {
+.navigation ul a.active {
     color: var(--nav-linecolor);
 }
 
@@ -329,7 +329,7 @@ body {
     width: 800px;
     height: 400px;
     border-radius: 30px;
-    background-image: url(image/lite-photo-boxme.jpg);
+    background-image: url(/image/lite-photo-boxme.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -627,7 +627,7 @@ body {
     height: 250px;
     position: relative;
     margin: 5px;
-    background-image: url(image/box-img.jpg);
+    background-image: url(/image/box-img.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1050,7 +1050,6 @@ footer .prime h3 {
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        margin-top: 50px;
     }
 
     .skill-box .h1-boxLogo {
@@ -1518,7 +1517,6 @@ footer .prime h3 {
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        margin-top: 50px;
     }
 
     .skill-box .h1-boxLogo {
@@ -1978,7 +1976,7 @@ footer .prime h3 {
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        margin-top: 50px;
+        margin-top: 120px;
     }
 
     .skill-box .h1-boxLogo {
