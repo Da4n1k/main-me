@@ -1946,6 +1946,7 @@ footer .prime h3 {
     .bg-imageEffect {
         width: 90%;
         height: 300px;
+        background-position: center;
     }
 
     .content-me .text-boxme .ul-time {
