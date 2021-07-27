@@ -11,10 +11,27 @@ for (let i = 0; i < list.length; i++) {
 
 let menubt = document.querySelector('.toggle');
 let nav = document.querySelector('.navigation');
-
 menubt.onclick = () => {
     menubt.classList.toggle('active');
     nav.classList.toggle('active');
+};
+
+let theme = document.querySelector('.theme-mode');
+let textHello = document.querySelector('.textHello');
+let bot_text = document.querySelector('.bot-text');
+theme.onclick = () => {
+    theme.classList.toggle('active');
+    if (theme.className === 'theme-mode active') {
+        document.body.style.background = "var(--body-dark)";
+        document.body.style.color = "var(--alltext-light)";
+        textHello.style.color = "var(--alltext-light)";
+        bot_text.style.color = "var(--alltext-light)";
+    } else {
+        document.body.style.background = "var(--body-light)";
+        document.body.style.color = "var(--alltext-dark)";
+        textHello.style.color = "var(--alltext-dark)";
+        bot_text.style.color = "var(--alltext-dark)";
+    }
 };
 
 const skillCont = document.getElementsByClassName('myskill-item'),
